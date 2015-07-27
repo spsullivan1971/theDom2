@@ -50,14 +50,3 @@ $('#divideBtn').click(function(event) {
 });
 
 });
-
-
-
-
-
-
-}
-
-<div class = "result">
-Answer: <span id="result"></span>
-</div>
