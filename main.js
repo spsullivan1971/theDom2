@@ -22,7 +22,7 @@ $(document).ready(function() {
   var num1 = $('#num_one').val();
   var num2 = $('#num_two').val();
   var total = add(num1, num2);
-  $('#answer').text(total);
+  $('#result').text(total);
 });
 
 $('#subBtn').click(function(event) {
@@ -30,7 +30,7 @@ $('#subBtn').click(function(event) {
   var num1 = $('#num_one').val();
   var num2 = $('#num_two').val();
   var total = subtract(num1, num2);
-  $('#answer').text(total);
+  $('#result').text(total);
 });
 
 $('#multiplyBtn').click(function(event) {
@@ -38,7 +38,7 @@ $('#multiplyBtn').click(function(event) {
   var num1 = $('#num_one').val();
   var num2 = $('#num_two').val();
   var total = multiply(num1, num2);
-  $('#answer').text(total);
+  $('#result').text(total);
 });
 
 $('#divideBtn').click(function(event) {
@@ -46,7 +46,7 @@ $('#divideBtn').click(function(event) {
   var num1 = $('#num_one').val();
   var num2 = $('#num_two').val();
   var total = divide(num1, num2);
-  $('#answer').text(total);
+  $('#result').text(total);
 });
 
 });
