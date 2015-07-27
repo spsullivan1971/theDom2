@@ -4,21 +4,28 @@
   <meta charset="UTF-8">
   <title>Calculator</title>
   <link rel="stylesheet" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   </head>
 <body>
 <div class="container">
-<h2>Let's Do Some Math!</h2>
+<h1>Crazy Calculations</h1>
 
 <input type="text" placeholder="Enter a Number" id="num_one" class="inputBlock" />
 <br /><br />
 <input type="text" placeholder="Enter a Number" id="num_two" class="inputBlock" />
 <br /><br />
 
+<input type="button" value="Add" id="addBtn" />
+<input type="button" value="Subtract" id="subtractBtn" />
+<input type="button" value="Multiply" id="multiplyBtn" />
+<input type="button" value="Divide" id="divideBtn" />
 
+ <div class="answer"
+ <br />
+ answer: <span id="answer"></span>
+ </div>
+ </div>
 
-
-
-</body>
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
 <script type="text/javascript" src="main.js"></script>
 </body>
