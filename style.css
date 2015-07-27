@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+}
+
+.container {
+  border: solid 3px blue;
+  width: 400px;
+  padding: 10px;
+  margin: auto;
+  display: block;
+  background-color: #3399ff;
+  margin-bottom: 20px;
+}
+
+.inputBlock {
+  border: solid 3px blue;
+}
+
+.answer {
+  font-size: 1em;
+}
+
+#answer {
+  
+}
