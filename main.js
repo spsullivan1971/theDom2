@@ -25,7 +25,7 @@ $(document).ready(function() {
   $('#result').text(total);
 });
 
-$('#subBtn').click(function(event) {
+$('#subtractBtn').click(function(event) {
   event.preventDefault();
   var num1 = $('#num_one').val();
   var num2 = $('#num_two').val();
